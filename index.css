@@ -1,0 +1,66 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.logo{
+    width: 100px;
+}
+.nav-items ul {
+    font-size: 20px;
+    display: flex;
+    list-style-type:none;
+}
+.nav-items ul li {
+    padding: 10px;
+    margin: 10px;
+
+}
+.rest-card{
+    margin: 5px;
+    height: auto;
+    width: 195px;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+.rest-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.rest-img{
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+}
+.resto_container{
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.shimmer-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin: 5px;
+    height: 200px;
+    width: 195px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+.login-btn{
+    padding: 0, 10px ;
+    margin: 10px;
+}
+
+.filter{
+    display: flex;
+}

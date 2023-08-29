@@ -1,0 +1,14 @@
+{
+    "github.gitAuthentication": false,
+    "github.gitProtocol": "https",
+    "github-enterprise.uri": "https://github.com/kumawatmahendra/Namaste_React_.git",
+    "scm.alwaysShowRepositories": true,
+    "scm.alwaysShowActions": true,
+    "scm.providerCountBadge": "hidden",
+    "scm.showActionButton": true,
+    "terminal.integrated.tabFocusMode": true,
+    "output.smartScroll.enabled": true,
+    "scm.diffDecorationsGutterPattern": {
+        "added": true
+    }
+}
