@@ -64,3 +64,10 @@
 .filter{
     display: flex;
 }
+
+.menu-img{
+    height: 140px;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+}
