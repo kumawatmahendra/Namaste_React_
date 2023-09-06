@@ -20,6 +20,7 @@ const RestaurantMenu = () => {
     }
     const { itemCards } = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card || []
     console.log(itemCards);
+    console.log(itemCards);
 
     const { name, cuisines, avgRating, costForTwoMessage,cloudinaryImageId } =
         resInfo?.cards[0]?.card?.card?.info || []
@@ -36,7 +37,7 @@ const RestaurantMenu = () => {
             <h2>menu</h2>
             <ul>
                 {itemCards.map((items) => (
-                    <li key={items.card.info.id}>{items.card.info.name} - Rs.{items.card.info.price / 100}</li>
+                    <li key={items.card.info.id}> {items.card.info.cloudinaryImageId}{items.card.info.name} - Rs.{items.card.info.price / 100}</li>
                 ))}
             </ul>
         </div>
