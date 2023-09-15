@@ -12,14 +12,9 @@ const Error = () => {
           <h2>Something Went Wrong</h2>
           <h2>{err.status}: {err.statusText}</h2>
           <h2>{err.data}</h2>
-          {/* <h2>Error 404 page not found</h2> */}
           </div>    
-    <button onClick={() => navigate('/') }>click to home page</button>
-
+          <button onClick={() => navigate('/') }>click to home page</button>
     </div>
-    
-
   )
 }
-
 export default Error

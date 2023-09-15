@@ -56,3 +56,14 @@
 # 2 types of Routing in web app  
    - Client side routing
    - Server side routing  
+
+   
+
+ # These all are same thing for some process to breck down app small logical chunks.
+ 
+   - Chunking
+   - Code Spliting
+   - Lazy Loading
+   - Ondemand Loading
+   - Dynamic Bundling 
+   - Dynamic Import

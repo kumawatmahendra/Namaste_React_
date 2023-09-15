@@ -18,8 +18,8 @@ class About extends React.Component{
     super(props)
     console.log("parent constructer");
   }
-  componentDidMount(){
-    console.log("parent did mount");
+  async componentDidMount(){
+        console.log("parent did mount");
   }
    render(){
     console.log("parent render");

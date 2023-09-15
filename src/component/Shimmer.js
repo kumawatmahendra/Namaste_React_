@@ -1,29 +1,29 @@
 const Shimmer = () => {
   return (
-    <div className="shimmer-container">
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
-        <div className="shimmer-card"></div>
+    <div className="flex flex-wrap">
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
+        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div> 
+        <div className="m-6 p-3 h-[300px] w-[240px] rounded-lg bg-gray-100"></div>
     </div>
   )
 }
