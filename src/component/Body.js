@@ -3,6 +3,7 @@ import RestorentCart,{withPromotion} from "./RestorentCart";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+// import useListRestaurant from "../utils/useListRestaurant";
 
 const Body = () => {
   const [listOfRestaurant,setListOfRestaurant]=useState([])
@@ -67,7 +68,7 @@ const Body = () => {
      </div>
       </div>
       <div className="flex flex-wrap">
-        {filteredRestaurent.map((restaurant) => (
+        {filteredRestaurent.map((restaurant,index,array) => (
           <Link
            key={restaurant.info.id}
            to={"restaurant/"+restaurant.info.id} >

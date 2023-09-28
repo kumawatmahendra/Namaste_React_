@@ -67,3 +67,14 @@
    - Ondemand Loading
    - Dynamic Bundling 
    - Dynamic Import
+
+
+ # Redux ToolKit   
+
+   - Install @reduxjs/toolkit and react-redux
+   - Build oue Store(redux store)
+   - Connect our store to our app
+   - Create Slice (cart slice)
+   - Dispatch (Action)
+   - Selector
+   

@@ -1,60 +1,86 @@
-import React, { lazy,Suspense } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./component/Header";
 import Body from "./component/Body";
-// import About from "./component/About";
 import Contect from "./component/Contect";
 import Shimmer from "./component/Shimmer";
-// import Grocery from "./component/Grocery"
 import Error from "./component/Error";
+import Cart from "./component/Cart";
 import RestaurantMenu from "./component/RestaurantMenu";
-import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet
+} from "react-router-dom";
+import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./redux_file/appStore";
 
 
-const Grocery=lazy(()=> import("./component/Grocery"))
-const About = lazy(()=> import("./component/About"))
+const Grocery = lazy(() => import("./component/Grocery"))
+const About = lazy(() => import("./component/About"))
 
 const AppLayout = () => {
+
+  const [userName, setUserName] = useState()
+  useEffect(() => {
+    const data = {
+      name: "Mahendra Kumawat"
+    }
+    setUserName(data.name)
+  }, []);
+
+
   return (
-    <div className="app">
-      <Header />
-      <Outlet />
-    </div>
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ name: userName }}>
+        <div className="app">
+          <Header />
+          <Outlet />
+        </div>
+      </UserContext.Provider>
+    </Provider>
   )
 }
+
 const appRouther = createBrowserRouter([
   {
-     path:"/",
-     element:<AppLayout />,
-     
-     children:[
+    path: "/",
+    element: <AppLayout />,
+
+    children: [
       {
-        path:"/",
-        element:<Body />
+        path: "/",
+        element: <Body />
       },
       {
-        path:"/about",
-        element:(<Suspense fallback={<Shimmer />}><About /></Suspense>)
+        path: "/about",
+        element: (<Suspense fallback={<Shimmer />}><About /></Suspense>)
       },
       {
-        path:"/contect",
+        path: "/contect",
         element: <Contect />
       },
       {
-        path:"/grocery",
-        element:(
-        <Suspense fallback={<h1>Loading.....</h1>}>
-         <Grocery /> 
-         </Suspense>
-         ), 
+        path:"/cart",
+        element:<Cart />
       },
       {
-        path:"/restaurant/:resId",
+        path: "/grocery",
+        element: (
+          <Suspense fallback={<h1>Loading.....</h1>}>
+            <Grocery />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/restaurant/:resId",
         element: <RestaurantMenu />
       }
-  ],
-  errorElement:<Error />}
-  ])
+    ],
+    errorElement: <Error />
+  }
+])
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
