@@ -23,7 +23,7 @@ const Cart = ()=>{
           className="m-10 font-bold text-2xl text-">
           Your Cart Is Empty!! Please Add Items
           </h1>}
-          <ItemList items={cartItems}></ItemList>
+          <ItemList  items={cartItems}></ItemList>
          </div>
          </div>
     )

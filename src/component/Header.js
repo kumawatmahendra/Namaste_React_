@@ -16,9 +16,9 @@ const Header = () => {
   console.log(cartItems);
 
   return (
-    <div className="flex justify-between shadow-lg ">
+    <div className="flex h-24 justify-between shadow-lg ">
       <div className="logo-container">
-        <img className=" w-32" src={LOGO_URL} />
+        <img className=" w-28 h-24" src={LOGO_URL} />
       </div>
       <div className="flex items-center">
         <ul className="flex p-4 m-6">
@@ -34,19 +34,18 @@ const Header = () => {
           <li className="px-2">
             <Link to="/contect">Contect Us</Link>
           </li>
-          <li className="px-2">
+          {/* <li className="px-2">
             <Link to="/grocery">Grocery</Link>
-          </li>
-         
-          <li className="px-2 text-lg"> 
-          <Link to={"/cart"}> 🛒 {cartItems.length} </Link>
+          </li> */}
+          <li className="px-2 "> 
+          <Link to={"/cart"}> 🛒 Cart ({cartItems.length}-Items) </Link>
           </li> 
 
-          <button className="login-btn" onClick={() => {
+          {/* <button className="login-btn" onClick={() => {
             button === "login" ? setButton("logOut") : setButton("login");
-          }}>{button}</button>
+          }}>{button}</button> */}
           
-          <li className="px-2 font-bold">{loggedInUser}</li>
+          {/* <li className="px-2 font-bold">{loggedInUser}</li> */}
 
         </ul>
       </div>
