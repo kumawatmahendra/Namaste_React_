@@ -16,7 +16,7 @@ const About = () => {
          <h1 className="font-bold text-lg">Redux: </h1>
          <p>
             To manage the application's state and handle complex data flow, we implemented Redux. This provided us with a centralized and predictable state management system, making the application more scalable and maintainable.
-         </p>
+         </p>   
 
 
          <h1 className="font-bold text-lg">Tailwind CSS:</h1>

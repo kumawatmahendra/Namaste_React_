@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react"
-import { MENU_API } from "./contants"
+import { MENU_API } from "./constants"
 const useRestaurentMenu = (resId)=>{
 
     const[resInfo,setResInfo]=useState(null)

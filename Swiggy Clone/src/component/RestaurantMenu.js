@@ -1,6 +1,6 @@
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-import { CDN_URL } from "../utils/contants";
+// import { CDN_URL } from "../utils/contsants";
 import useRestaurentMenu from "../utils/useRestaurentMenu";
 import RestaurantCategory from "./RestaurantCategory"
 import { useState } from "react";

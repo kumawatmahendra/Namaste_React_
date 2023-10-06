@@ -1,4 +1,5 @@
-import ItemList from "./ItemList"
+// import ItemList from "./ItemList"
+import RemoveCartItems from "./RemoveCartItems"
 import { clearItems } from "../redux_file/cartSlice"
 import { useSelector,useDispatch } from "react-redux"
 
@@ -23,7 +24,7 @@ const Cart = ()=>{
           className="m-10 font-bold text-2xl text-">
           Your Cart Is Empty!! Please Add Items
           </h1>}
-          <ItemList  items={cartItems}></ItemList>
+          <RemoveCartItems  items={cartItems}></RemoveCartItems>
          </div>
          </div>
     )
