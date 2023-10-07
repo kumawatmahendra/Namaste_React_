@@ -1,29 +1,29 @@
 const Shimmer = () => {
   return (
-    <div className="flex flex-wrap">
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div>
-        <div className="m-6 p-3 h-[300px] w-[230px] rounded-lg bg-gray-100"></div> 
-        <div className="m-6 p-3 h-[300px] w-[240px] rounded-lg bg-gray-100"></div>
+    <div className="flex flex-wrap m-4">
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9  p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div> 
+        <div className="my-2 mx-9 p-1 w-[240px] h-[360px] rounded-lg bg-gray-200"></div>
     </div>
   )
 }
