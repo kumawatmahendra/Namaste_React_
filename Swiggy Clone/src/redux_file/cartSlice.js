@@ -18,7 +18,7 @@
 // })
 
 // export const {addItem, removeItem, clearCart} = cartSlice.actions;
-// export default cartSlice.reducers;
+// export default cartSlice.reducer;
 
 
 
